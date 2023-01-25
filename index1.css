@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 60px 20px 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header img{
+    display: block;
+    margin: 0 auto;
+}
+
+main{
+    padding-bottom: 60px;
+}
+
+main .container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+main form {
+    border: 1px solid #dddddd;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+main form label {
+    display: block;
+}
+
+main form input {
+    display: block;
+    padding: 10px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.password-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn-yellow {
+    background-color: #f7c548;
+    border: 1px solid #cba035;
+}
+
+.btn-gray {
+    background-color: #e7e9ec;
+    border: 1px solid #b3b4b5;
+}
+
+.need-help {
+    display: block;
+    color #007bff;
+    text decoration: none;
+    margin: left;
+    margin-top: 20px
+
+}
+
+.new-to-amazon {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 0;
+    color: gray;
+    margin: 30px 0;
+}
+.new-to-amazon span {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+footer {
+    border-top: 1px solid #dddddd;
+    padding-top: 40px;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    text-align: center;
+
+}

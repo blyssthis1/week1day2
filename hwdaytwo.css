@@ -1,0 +1,99 @@
+.lolo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+
+.login {
+    width: 280px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+ .login_fr
+ {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 280px;
+    height: 25px;
+    border: 1px solid color;
+    margin-top: 10px;
+    
+ }
+ .pass{
+   display: flex;
+   justify-content: space-between;
+ }
+
+.login_fr1{
+ background: rgb(217, 209, 209);
+    border-radius: 2px;
+    width: 260px;
+    height: 40px;
+    border: 1px solid color;
+    margin-top: 10px;
+   
+ }
+.def{
+    text-decoration: none;
+    align-items: left;
+    justify-content: left;
+}
+
+ .hr-lines:before{
+    contents: " ";
+    height: 2px;
+    width: 180px;
+    background: lightgray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+ }
+
+
+ .hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    color: gray
+ }
+
+ .hr-lines:after{
+    content: " ";
+    height: 2px;
+    width:180px;
+    background: lightgray;
+    display: block;
+    position: absolute;
+    top: 20%;
+    right:0;
+ }
+
+
+
+ .bottom {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+    justify-content: space-evenly;
+    
+ }
+
+ .aff {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
